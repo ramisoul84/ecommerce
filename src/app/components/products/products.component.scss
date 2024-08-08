@@ -1,0 +1,14 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 6rem;
+  .product {
+    img {
+      width: 100%;
+    }
+    .product-title {
+      font-size: 0.8rem;
+    }
+  }
+}
